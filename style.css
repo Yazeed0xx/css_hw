@@ -1,0 +1,112 @@
+ *{
+    margin: 0;
+    padding: 0;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: "weight";
+  font-style:"normal";
+
+}
+.first_sec{  
+        width: 100%;
+        height: 60vh;
+        position:relative;
+
+}
+.soup{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    top: 10%;
+    right: 34%;
+    
+    transform: translate(-50%, -50%);
+    
+}
+.pic1{
+width: 100%;
+position: absolute;
+height: 100%;
+border-bottom: 12px solid;
+}
+.pic2{
+     position: absolute;
+  width: 220px;
+  height:210px;
+  bottom: -10%;
+  left: 50%;
+  translate: -50%;
+  transition: transform 7s;
+
+
+
+
+}
+.pic2:hover{
+    transform: rotate(360deg);
+}
+
+.sec_sec{
+    position: relative;
+    margin-left: 7rem;
+    margin-top:5rem;
+    border-bottom: solid;
+    font-size:smaller;
+ }
+ h3{
+    margin-bottom: 5rem;
+
+
+ }
+
+.pic3{
+    position: absolute;
+    height: 1rem;
+    width: 20rem;
+    right: 40%;
+    top: 77%;
+    transform: translate(-50, -50);
+}
+.third_sec{
+    order: 1;
+    position: relative;
+    margin: 0 7rem;
+    border-bottom: solid;
+    
+}
+dd{
+    margin-left:   1.5rem;
+}
+.ING{
+    width: fit-content;
+
+
+    background-color: #8f6836;
+    border-radius: 50%;
+  padding: 1rem;
+}
+.pic4{
+    position: absolute;
+    height: 2rem;
+    width: 15rem;
+    right: 34%;
+    top: 77%;
+    transform: translate(-50, -50);
+}
+.DIR{
+    width: fit-content;
+
+
+    background-color: #8f6836;
+    border-radius: 50%;
+  padding: 1rem;}
+.last dd{
+    margin-right: 1rem;
+}
+.last-sec{
+    height: 100%;
+    order: 1;
+    position: relative;
+    margin: 0 7rem;
+    border-bottom: solid;
+}
